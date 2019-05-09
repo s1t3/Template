@@ -11,8 +11,29 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 5px;
 }
 
-h1{margin-top:15%;}
-#img1 {width:60%;margin-left:20%}
+#img2{
+margin-top:100px;
+width:70%;
+margin-left:15%
+}
+
+#img1 {
+width:60%;
+margin-left:20%
+}
+
+#img3{
+background-image:url("image/poke2.JPG");
+
+
+    background-color: rgba(255, 255, 255, 0.85);
+    background-blend-mode: lighten;
+
+}
+
+footer{
+background-color:#d0e1e1;
+}
 </style>
 <body>
 
@@ -36,8 +57,9 @@ h1{margin-top:15%;}
 
 
 <header class="w3-display-container w3-content w3-wide" >
-  <h1 class="w3-center" style="font-family:Arial">POK&Eacute;  BROS</h1><br>
-  <img  id="img1" src="image/poke.JPG"  width="700" height="400" >
+ <!--  <h1 class="w3-center" style="font-family:Arial">POK&Eacute;  BROS</h1><br> -->
+  <img  id="img2" src="image/pokeLogo.JPG"  width="600" height="200" >
+  <img  id="img1" src="image/poke.JPG"   >
 
 
 </header>
@@ -46,12 +68,12 @@ h1{margin-top:15%;}
 <div class="w3-content" style="max-width:1100px">
 
   <!-- About Section -->
-  <div class="w3-row w3-padding-64" id="about">
-    <div class="w3-col m6 w3-padding-large">
-     <img src="image/poke2.JPG" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
-    </div>
+  <div id="img3" class="w3-row w3-padding-64" id="about">
+    <!-- <div class="w3-col m6 w3-padding-large">
+     <img src="image/poke2.JPG" class="w3-round w3-image w3-opacity-max" alt="Table Setting" width="600" height="750">
+    </div> -->
 
-    <div class="w3-col m6 w3-padding-large">
+    <div  style="opacity:1" class="w3-col  w3-padding-large">
       <h1 class="w3-center">About Catering</h1><br>
       <h5 class="w3-center">Tradition since 2019</h5>
       <p class="w3-large">They say you can’t choose who your family is but that is not the case with our company, Poke Bros.  Poke Bros was founded by two friends who have become lifelong brothers through our love for creating delicious and innovative Asian cuisine.  Together, we share over 35 years experience in the sushi and catering business.
@@ -67,7 +89,7 @@ Contact us today!</p>
   <hr>
   
 
-  <hr>
+ 
 
   <!-- Contact Section -->
 
@@ -76,8 +98,8 @@ Contact us today!</p>
 </div>
 
 <!-- Footer -->
-<footer class="w3-center w3-light-grey w3-padding-32">
-  <p>pokebrosorlando@gmail.com</p>
+<footer class="w3-center  w3-padding-25">
+  <p><i>pokebrosorlando@gmail.com</i></p>
 </footer>
 
 </body>
